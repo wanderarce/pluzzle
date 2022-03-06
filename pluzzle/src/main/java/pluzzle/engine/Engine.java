@@ -14,7 +14,7 @@ public class Engine extends JFrame implements ActionListener {
 
 	private JButton next;
 
-	private List<JButton> buttons = new ArrayList<JButton>();
+	public List<JButton> buttons = new ArrayList<JButton>();
 	private int width = 50;
 	private int height = 40;
 
@@ -141,7 +141,7 @@ public class Engine extends JFrame implements ActionListener {
 		checkEight(e);
 
 		if (assertResults()) {
-			JOptionPane.showMessageDialog(Engine.this, "Você ganhou!!");
+			JOptionPane.showMessageDialog(Engine.this, "Vocï¿½ ganhou!!");
 		}
 
 	}
